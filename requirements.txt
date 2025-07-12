@@ -1,0 +1,57 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+python-dotenv
+#huggingface-hub==0.26.3
+#mpi4py==4.0.1
+polygraphy
+pycuda
+pydub
+jieba
+pypinyin
+x-transformers==1.43.5
+librosa>=0.10.1
+onnx==1.17.0
+onnxconverter-common==1.14.0
+onnxruntime-gpu==1.20.1
+onnxruntime-tools==1.7.0
+nvidia-pyindex
+safetensors
+customtkinter
+soundfile
+vocos
+accelerate>=0.33.0
+auto-gptq
+optimum
+bitsandbytes>0.37.0
+cached_path
+click
+datasets
+ema_pytorch>=0.5.2
+#gradio
+matplotlib>=3.8.0
+tomli
+torchdiffeq
+tqdm>=4.65.0
+transformers>=4.45.2
+wandb
+x_transformers>=1.31.14
+f5_tts
+#vinorm
+numpy==1.26.4
+detoxify @ git+https://github.com/unitaryai/detoxify
+ctranslate2>=4.4.0
+faster-whisper>=1.0.3
+ffmpeg-python==0.2.0
+yt-dlp
+json5
+more_itertools
+zhconv
+sentencepiece
+
+# Diarization
+intervaltree
+srt
+pyannote.audio
+
+# ALMA-GGUL
+ctransformers[cuda]
